@@ -181,6 +181,7 @@ static NSString * const kBundlePath                 = @"SWBufferedToast";
         _usernameField.textColor = [UIColor whiteColor];
         _usernameField.font = [UIFont fontWithName:@"HelveticaNeue-Thin" size:18.0f];
         [_usernameField setTintColor:[UIColor whiteColor]];
+        [_usernameField setAutocapitalizationType:UITextAutocapitalizationTypeNone];
         _usernameField.delegate = self;
     }
     
